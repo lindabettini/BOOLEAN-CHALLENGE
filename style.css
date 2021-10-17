@@ -1,0 +1,89 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(file:///C:/Users/hp%20360/Desktop/ATOM/BG/background.jpg);
+  background-size: cover;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-bottom: 15%;
+  background-color: rgba(00, 00, 00, 0.5);
+  border-radius: 15px;
+}
+
+.logo{
+ display: block;
+ padding-top: 60px;
+ margin-top: 30px;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+h2{
+  color: rgb(0, 221, 0);
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+/* <!-- OPERATION BAR: --> */
+nav{
+  background-color: rgb(0, 221, 0);
+  border: 9px solid rgb(0, 221, 0);
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.left{
+  display: inline-block;
+  margin-left: 28%;
+}
+
+.middle,.right{
+  display: inline-block;
+}
+
+/* <!-- AVAILABLE SCOOTERS: --> */
+.Availability{
+  color: white;
+  margin-left: 10%;
+}
+
+h3{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.Availability div{
+  font-size: 13px;
+  margin-top: 10px;
+  line-height: 50%;
+}
+
+/* BATTERY LEVEL INDICATORS: */
+.gino33battery{
+  border:10px solid orange;
+  border-radius: 5px;
+  margin-right: 60%;
+  margin-top: 10px;
+}
+
+.mike27battery{
+  border:10px solid rgb(51, 204, 51);
+  border-radius: 5px;
+  margin-right: 30%;
+  margin-top: 10px;
+}
+
+.fede54battery{
+  border:10px solid rgb(191, 64, 64);
+  border-radius: 5px;
+  margin-right: 80%;
+  margin-top: 10px;
+}
